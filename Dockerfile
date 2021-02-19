@@ -7,6 +7,4 @@ WORKDIR /automation-test
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-RUN [ "python", "./test.py" ]
-
-CMD tail -f /dev/null
+RUN [ "python", "-B", "./test.py" ]

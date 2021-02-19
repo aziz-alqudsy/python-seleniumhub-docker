@@ -5,3 +5,4 @@
 3. Create simple automation testing test.py to open browser and go to https://ruangguru.com
 4. Create Dockerfile to install python, install requirements, and run the test
 5. Run docker compose `docker-compose -f docker-compose-v3.yml up -d`
+6. Build image testing for docker file `docker build -t seleniumhub/0.1 .`
